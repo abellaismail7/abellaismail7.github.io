@@ -1,2 +1,3 @@
 name: Ismail Bella 
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
