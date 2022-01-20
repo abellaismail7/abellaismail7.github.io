@@ -1,13 +1,17 @@
 ---
 layout: default
-title: Ismail bella 
+title: Ismail Ait Bella
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Ismail Bella</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+	<div class="post-meta muted flex">
+		<span>Ismail Ait bella | 1337 student</span>
+	</div>
 	<ul class="posts"> 
 		{% for post in site.posts %}
-			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			<li>
+				<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>  
+				« <span>{{ post.date | date_to_string }}</span> 
+			</li>
 		{% endfor %}
 	</ul>
 </div>
