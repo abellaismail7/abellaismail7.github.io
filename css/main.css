@@ -1,0 +1,128 @@
+@import "tango.css";
+
+body {
+	/*color: #e0fbfc; */
+	color: #444;
+	line-height: 1.6;
+	font-size: 18px;
+	max-width:100wv;
+	overflow-x:hidden;
+}
+ul{
+	list-style:none;
+
+}
+a{
+	color:coral;
+
+}
+
+nav a{
+	color: white;
+}
+pre{
+	overflow:scroll;
+}
+
+.logo{
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+}
+.tags{
+	border-top: 3px solid rgb(170, 177, 181);
+	display: inline-block;
+}
+.tags p{
+	margin:10px 0;
+}
+.tags *{
+	color: rgb(170, 177, 181);
+}
+.ftag {
+    background: #00000047;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+
+.title{
+	border-bottom:2px dashed #ddd;
+	padding-bottom:15px;
+
+}
+.menu span{
+	display:block;
+	margin: 3px;
+	height: 2.5px;
+	width:20px;
+	background:#fff;
+
+}
+
+.flex{
+	display:flex;
+	align-items:center;
+}
+
+.spacer{
+	flex-grow:1;
+}
+
+.center{
+	text-align:center;
+}
+
+.posts li{
+	padding: 10px 5px;
+	border-bottom: 1px dashed #bbb
+}
+
+.muted a{
+	color: rgb(170, 177, 181);
+	text-decoration: none;
+	font-weight: 700;
+}
+.muted {
+	color: rgb(170, 177, 181);
+	font-size: 75%;
+}
+.container{
+	width:800px;
+	max-width:95%;
+	margin: auto;
+}
+
+#archives *{
+
+	color: #ddd;
+}
+.category-item {
+    /*padding: 0 20px;
+    border-radius: 5px;
+	margin: 5px;*/
+    text-decoration: none;
+	color: #ddd;
+	
+}
+/*
+.android
+{
+    background: #e5ffe5;
+    color: #29ba0b;
+}
+
+.javascript
+{
+	background: #fff8e8;
+	color: #cf9f2e;
+}*/
+
+footer{
+	margin-top:20px !important;
+}
+
+::selection {
+  background: #ff7f5036;
+}
