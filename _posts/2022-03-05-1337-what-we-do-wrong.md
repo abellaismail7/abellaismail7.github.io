@@ -11,20 +11,23 @@ and know what they are doing.
  you might not learn how to write a better code, and follow best practices.
 
 ## Git the right way
-This tool is abused by many students, and I feel sorry when the most important tool in devpack used
-like this. here is some common points I noticed:
+This tool is abused by many students, this is my second fav software ever
+and I feel bad when the most important tool in devpack used
+in arbitrary way. here is some common points I noticed:
+
+And I took that personally.
 
 ### git add .
 It's easier to add files to stage area using this approach. just stage everything .DStore and all other useless garbage files.
 
 **NOOOOOOOOOOOOO Please**, just add files that are neccessary for your project. you might be to lazy to stage them one by one,
- just use Vscode or to be fast [Fugitive plugin](https://github.com/tpope/vim-fugitive) in vim.
+ just use Vscode or to be fast use [Fugitive plugin](https://github.com/tpope/vim-fugitive) in vim.
 
 With this you can make sure that you only have neccessary files in your repo, and give you a better understanding for
 changes you made so you can have a well-written commit message.
 
 ### git status \n git commit -m "whatever"
-I can't call this `abuse` but it's much better to just use `git commit` and this will show you a useful status in your
+I can't call this 'abuse' but it's much better to just use `git commit` and this will show you a useful status in your
 favorite editor(vim), write down a useful message, save&quit and your commit will be done.
 
 isn't it much easier to write a commit message while you can see files that you changed ?
@@ -55,17 +58,17 @@ my useful commit message here
 ```
 
 ### git clone && mv ur files
-when your finished your project. most students realise that they didn't link thier project with vogsphere.
+When they finished thier project. most students realise that they didn't link it with vogsphere.
 They do what I call a smart move, just clone it and move file from project to cloned repo.
 
-Guess what stupid? git remote is the answer.
+Guess what stupid? git remote is much easier.
 
 ```
 $ cd myproject
 $ git remote add intra [link to vogsphere repo]
 $ git push -u intra master
 ```
-Now You can look for evalutors.
+Now you can look for evalutors.
 
 ### gitignore
 This file is freaking useful to avoid staging useless files
@@ -219,20 +222,17 @@ You might not know that there is scanf to read from stdin. You might not know ab
 
 Some students never heard of allowed features in c like struct/enums/union ...;
 
-Investing some time learning the practical C will help you write tests faster saving some time.
-
-### Learn Web side by side with C
-Web develpement one of the most important skills you should have here in Morocco
-As FZ (Staff at khouribga) mentioned in BocalStandUp.
+Investing some time learning the practical C will help you write tests faster saving you some time.
 
 ### Never use write directly (or waste your time)
-Prevent student from using stdio functions is just genuis idea. cuz we have functions like open, read and write ...
-but using write directly is a bad idea cuz it's error-prone, cuz we developers like to make dump mistakes.
+Prevent students from using stdio functions is just a genuis idea.
+while we have functions like open, read and write that are intract directly with system ...
+but using write directly is a bad idea cuz it's error-prone, we developers like to make dump mistakes.
 for me I like to use `ft_putstrfd(int fd, char *s)`.
 
-### Programming is your wife, you are always wrong.
+### Programming is like mariage, you are always wrong.
 You can insult iMac and c as you can, but most of the time you doing something wrong.
-we are using c89 compile with gcc which is one of the most mature projects.
+we are using c89 compiled using gcc which is one of the most mature projects.
 written by genuis people so It's more likely you doing it wrong.
 
 ### Once it works don't touch it mindset.
@@ -245,21 +245,9 @@ here is a qoute from kent beck
 
 I highly recommand two books:
 
-1. [clean code, uncle bob]() : This will teach you how to write an understable, readable code. 
-1. [Refactoring, martin fowler]() : This will teach you how to rewrite part of you code to be better and faster.
-
-## VScode (Developer's Stockholm syndrome)
-While VScode has no learning curve and vim is a complete trash specialy with the default 42 configuration.
-which makes me highly recommand VScode for noobs.
-Vim is more than that and Neovim is much more.
-
-You could just double productivity and have a smooth exprience that you will never find elsewhere.
+1. [clean code, uncle bob](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) : This will teach you how to write an understable, readable code. 
+1. [Refactoring, martin fowler](https://martinfowler.com/books/refactoring.html) : This will teach you how to rewrite part of you code to be better and faster.
 
 ## In The end
-This is what I think. If you have a diffrent opinion we can discuss it in my twitter account (link below)
+This is what I think. If you have a different opinion we can discuss it in my twitter account (link below)
 If you want to add anything to this feel free to pull request in [this repo](https://github.com/abellaismail7/abellaismail7.github.io).
-
-
-
-
-
