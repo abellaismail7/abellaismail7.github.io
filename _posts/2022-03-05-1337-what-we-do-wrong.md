@@ -13,9 +13,7 @@ and know what they are doing.
 ## Git the right way
 This tool is abused by many students, this is my second fav software ever
 and I feel bad when the most important tool in devpack used
-in arbitrary way. here is some common points I noticed:
-
-And I took that personally.
+in arbitrary way. here is some common points I noticed And I took personally:
 
 ### git add .
 It's easier to add files to stage area using this approach. just stage everything .DStore and all other useless garbage files.
@@ -71,9 +69,9 @@ $ git push -u intra master
 Now you can look for evalutors.
 
 ### gitignore
-This file is freaking useful to avoid staging useless files
-here is some useful files to ignore:
+This file is freaking useful to avoid staging useless files.
 
+Files you might want to put in `.gitignore` file:
 
 ```
 .gitignore
@@ -88,7 +86,7 @@ Hell noooooo, makefile has a lot to learn.
 
 ### No source files in makefile
 
-never put source files in your makefile why because you will never need them. your are just risking deleting them
+You should never put source files in your makefile, why? because you will never need them. your are just risking deleting them
 with a stupid mistake that we as developer like to do.
 
 so instead of this
@@ -108,11 +106,11 @@ OBJ = main.o lkiks.o
 
 ### Object file? In root directory???
 I hate to see object files in the root directory, running `make fclean` everytime you are looking
-for a file; this elimante the role of makefile in first place(relink).
+for a file, this elimante the role of makefile in first place(relink).
 
 **Solution:**
-I have a doubt that this is the best way but at least I think it works for small projects.
-You object files should be inside a folder called `build` 
+I am sure that this is the best way but at least I think it works almost perfectly for small projects.
+Your object files should be inside a folder called `build` 
 
 ```
 build
